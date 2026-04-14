@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Course Organizer – Home</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ======= HEADER ======= -->
+  <header>
+    <div class="header-inner">
+      <div class="logo">&#127979; Course<span>Hub</span></div>
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation">
+        <span></span><span></span><span></span>
+      </button>
+      <nav>
+        <ul id="navMenu">
+          <li><a href="index.html" class="active">Home</a></li>
+          <li><a href="courses.html">My Courses</a></li>
+          <li><a href="add-course.html">Add Course</a></li>
+          <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ======= HERO ======= -->
+  <section class="hero">
+    <h1>Your Personal<br><em>Course Organizer</em></h1>
+    <p>Track your courses, manage your schedule, and stay on top of your academic journey — all in one place.</p>
+    <a href="courses.html" class="btn btn-primary">View My Courses</a>
+  </section>
+
+  <!-- ======= STATS STRIP ======= -->
+  <section class="stats-strip">
+    <div class="stats-inner">
+      <div class="stat-item">
+        <span class="number">6</span>
+        <div class="label">Enrolled Courses</div>
+      </div>
+      <div class="stat-item">
+        <span class="number">18</span>
+        <div class="label">Credit Hours</div>
+      </div>
+      <div class="stat-item">
+        <span class="number">2</span>
+        <div class="label">Semester</div>
+      </div>
+      <div class="stat-item">
+        <span class="number">4</span>
+        <div class="label">Upcoming Exams</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ======= MAIN ======= -->
+  <main>
+    <h2 class="page-title fade-in">Welcome Back 👋</h2>
+    <p class="page-subtitle">Here's what CourseHub can do for you.</p>
+
+    <div class="cards-grid">
+      <div class="card fade-in">
+        <div class="card-icon">📚</div>
+        <h3>Track Courses</h3>
+        <p>Keep all your enrolled courses organized with instructors, credit hours, and quick notes.</p>
+      </div>
+      <div class="card fade-in">
+        <div class="card-icon">➕</div>
+        <h3>Add Courses</h3>
+        <p>Quickly add new courses to your list using the structured form in the Add Course page.</p>
+      </div>
+      <div class="card fade-in">
+        <div class="card-icon">📊</div>
+        <h3>Monitor Progress</h3>
+        <p>See your total credit hours at a glance and track which courses are ongoing or completed.</p>
+      </div>
+      <div class="card fade-in">
+        <div class="card-icon">✉️</div>
+        <h3>Get in Touch</h3>
+        <p>Have questions or suggestions? Reach out through the Contact Us page anytime.</p>
+      </div>
+    </div>
+  </main>
+
+  <!-- ======= FOOTER ======= -->
+  <footer>
+    <p>&copy; 2026 <strong>CourseHub</strong> — Built for Internet Technology, Helwan University</p>
+  </footer>
+
+  <script>
+    const toggle = document.getElementById('menuToggle');
+    const menu   = document.getElementById('navMenu');
+    toggle.addEventListener('click', () => menu.classList.toggle('open'));
+  </script>
+
+</body>
+</html>
