@@ -57,7 +57,7 @@
 
   <!-- ======= MAIN ======= -->
   <main>
-    <h2 class="page-title fade-in">Welcome Back 👋</h2>
+    <h2 class="page-title">Welcome Back 👋</h2>
     <p class="page-subtitle">Here's what CourseHub can do for you.</p>
 
     <div class="cards-grid">
@@ -89,6 +89,14 @@
     <p>&copy; 2026 <strong>CourseHub</strong> — Built for Internet Technology, Helwan University</p>
   </footer>
 
+  <script>
+    const toggle = document.getElementById('menuToggle');
+    const menu   = document.getElementById('navMenu');
+    toggle.addEventListener('click', () => menu.classList.toggle('open'));
+  </script>
+
+</body>
+</html>
   <script>
     const toggle = document.getElementById('menuToggle');
     const menu   = document.getElementById('navMenu');
