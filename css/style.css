@@ -150,7 +150,6 @@ nav a.active::after {
   padding: 5rem 1.5rem 4rem;
   position: relative;
   overflow: hidden;
-  animation: fadeUp 0.5s ease both;
 }
 
 .hero::before {
@@ -568,4 +567,4 @@ footer strong { color: var(--amber); }
   main { padding: 2rem 1rem; }
   .form-card { padding: 1.5rem; }
   tbody td, thead th { padding: 0.8rem 0.75rem; }
-}
+   }
