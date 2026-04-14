@@ -165,7 +165,7 @@ nav a.active::after {
   font-size: clamp(2rem, 5vw, 3.2rem);
   line-height: 1.2;
   margin-bottom: 1rem;
-  animation: fadeUp 0.7s ease both;
+  animation: fadeIn 0.7s ease both;
 }
 
 .hero h1 em { color: var(--amber); font-style: normal; }
@@ -175,7 +175,7 @@ nav a.active::after {
   color: #b8c6d6;
   max-width: 500px;
   margin: 0 auto 2rem;
-  animation: fadeUp 0.7s 0.1s ease both;
+  animation: fadeIn 0.7s 0.15s ease both;
 }
 
 .btn {
@@ -188,7 +188,7 @@ nav a.active::after {
   cursor: pointer;
   border: none;
   letter-spacing: 0.03em;
-  animation: fadeUp 0.7s 0.2s ease both;
+  animation: fadeIn 0.7s 0.3s ease both;
 }
 
 .btn-primary {
@@ -530,6 +530,11 @@ footer strong { color: var(--amber); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
 .fade-in {
   animation: fadeUp 0.6s ease both;
 }
@@ -568,3 +573,4 @@ footer strong { color: var(--amber); }
   .form-card { padding: 1.5rem; }
   tbody td, thead th { padding: 0.8rem 0.75rem; }
    }
+   
